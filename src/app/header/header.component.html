@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand" href="#">
+      <img  class="rounded-circle" src="./assets/images/logo.jpg" alt="Logo" style="width:55px;">
+    </a>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto ">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/categories">Categories </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/moments">Moments</a>
+        </li>
+   
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/all" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            All
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/all/girl">Girl</a>
+            <a class="dropdown-item" href="/all/boy">Boy</a>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+    <ul class="navbar-nav nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/siginin">Signin</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/signup">Signup</a>
+      </li>
+      
+    </ul>
+      
+  </nav>
+  <router-outlet></router-outlet>
+
+</body>
+</html>

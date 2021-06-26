@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .row img
+  {
+    border-radius: 10%;
+    width: 85px;
+    height: 85px;
+  }
+  .row i{
+
+    font-size: 50px;
+        color:#33BBA1;
+  }
+  .row i:hover
+  {
+      background: #f00;
+  }
+  
+   
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .carousel
+{
+  background: white;
+}
+.carousel-cell
+{
+  width: 25%;
+  height: 200px;
+  background:white;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+
+}
+
+  

@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+  .a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  
+  .row img
+  {
+    border-radius: 10%;
+    width: 85px;
+    height: 85px;
+  }
+  .row i{
+
+    font-size: 50px;
+        color:#33BBA1;
+  }
+  .row i:hover
+  {
+      background: #f00;
+  }
+  
+   
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  

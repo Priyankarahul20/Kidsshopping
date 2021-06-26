@@ -1,0 +1,18 @@
+
+  
+  .row img
+  {
+    border-radius: 10%;
+    width: 85px;
+    height: 85px;
+  }
+  
+  
+   
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  

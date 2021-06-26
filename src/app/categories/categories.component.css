@@ -1,0 +1,35 @@
+.container
+{
+    background-color: white;
+}
+#main
+{
+    height: 100px;
+    width: 1050px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 150px;
+    background-color: #F1F1F1;
+border-radius: 7px;
+display: flex;
+}
+#main div {
+    flex-grow: 0;
+    flex-shrink: 0;
+    
+  }
+  
+  #main div:nth-of-type(1) {
+    flex-basis: 100px;
+    
+  }
+img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-top: -15px;
+}
+.div
+{
+    flex: auto;
+}
